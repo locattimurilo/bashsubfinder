@@ -1,10 +1,18 @@
-📌 Script: SubFinder Automation
+ 🛠️ Script: SubFinder Automation Tool
 
-Este é um script simples em Bash para automatizar buscas de subdomínios usando o SubFinder (ferramenta do ProjectDiscovery) via Docker.
-🔧 Como funciona?
+Um script Bash simples para automatizar a descoberta de subdomínios usando o [SubFinder](https://github.com/projectdiscovery/subfinder) via Docker.
 
-    Pede ao usuário um domínio para buscar (ex: site.com)
+## 📋 Funcionalidades
+- Interface interativa para inserção do domínio
+- Validação básica da entrada
+- Execução do SubFinder em container Docker
+- Saída direta no terminal
 
-    Verifica se o domínio foi inserido
+## 🚀 Como usar
+1. Salve como `subfinder.sh`
+2. Dê permissão de execução:
+   ```bash
+   chmod +x subfinder.sh
 
-    Executa o SubFinder em um container Docker, buscando subdomínios associados
+É NECESSÁRIO DOCKER INSTALADO E DEPOIS: 
+docker pull projectdiscovery/subfinder:latest
