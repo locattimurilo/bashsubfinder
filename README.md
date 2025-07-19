@@ -1,4 +1,4 @@
- 🛠️ Script: SubFinder Automation Tool
+ 🛠️ BASH SCRIPT: Subfinder em docker
 
 Um script Bash simples para automatizar a descoberta de subdomínios usando o [SubFinder](https://github.com/projectdiscovery/subfinder) via Docker.
 
